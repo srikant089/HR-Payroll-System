@@ -29,12 +29,6 @@ app.use('/api/team', teamRoutes);  // Mount the team routes
 app.use('/api/employee', employeeRoutes);  // Mount the team routes
 app.use('/api/auth', authRoutes);  // Register login routes
 
-
-<<<<<<< HEAD
-
-
-=======
->>>>>>> f2594c0 (minor bug fixed)
 // Create server and socket.io instance
 const server = http.createServer(app);
 
