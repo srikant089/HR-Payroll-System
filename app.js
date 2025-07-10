@@ -5,7 +5,6 @@ const http = require('http');
 const mongoose = require('mongoose');
 const socketIo = require('socket.io');
 
-
 const attendanceRoutes = require('./routes/attendance.route.js');
 const leaveRoutes = require('./routes/leave.route.js');
 const efficiencyRoutes = require('./routes/efficiency.route.js');  // Efficiency routes
